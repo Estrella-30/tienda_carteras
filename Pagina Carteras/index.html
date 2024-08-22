@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Carteras</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Carteras Mis Sueños</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="carrito.html">Carrito (<span id="cantidad-carrito">0</span>)</a> <!-- Link al carrito -->
+        </nav>
+    </header>
+
+    <section class="productos">
+        <h2>Nuestras Carteras</h2>
+        <div class="producto" data-id="1">
+            <img src="C:\xampp\htdocs\clase_backend\cartera.webp" alt="Cartera">
+            <div class="producto">
+                <h3>Cartera Elegante</h3>
+                <p>Precio: $150</p>
+                <button>Comprar</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-id="2">
+            <img src="C:\xampp\htdocs\clase_backend\Pagina Carteras\carteras2.jpg" alt="Cartera">
+                <h3>Cartera Elegante</h3>
+                <p>Precio: $250</p>
+                <button>Comprar</button>
+            </div>
+            <button class="agregar-carrito">Agregar al carrito</button>
+        </div>
+        <!-- Más productos con diferente data-id -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Carteras. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
